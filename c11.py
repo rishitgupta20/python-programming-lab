@@ -1,0 +1,8 @@
+setc1 = set(["green", "blue"])
+setc2 = set(["blue", "yellow"])
+r1 = setc1.difference(setc2)
+print("Difference of setc1 - setc2:")
+print(r1)
+r2 = setc2.difference(setc1)
+print("Difference of setc2 - setc1:")
+print(r2)
